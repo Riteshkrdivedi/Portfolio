@@ -1,5 +1,6 @@
-@media screen and (min-width: 800px){
-  script{}
+@media screen and (min-width: 800px) {
+  script {
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -368,7 +369,9 @@
     display: none;
   }
 
-  }.form-box-2{border-radius: 50px;}
+  .form-box-2 {
+    border-radius: 50px;
+  }
   .form-line {
     outline: none !important;
     /* box-shadow: none !important; */
@@ -399,7 +402,7 @@
     border: 1px solid #a8a8a8;
     transition-duration: 0.8s;
   }
-.form-line:hover {
+  .form-line:hover {
     font-size: 75px;
     box-shadow: 1px 1px 5px 5px #c9c5bf;
   }
