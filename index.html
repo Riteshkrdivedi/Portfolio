@@ -2,10 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width" />
     <title>Ritesh</title><script src="https://kit.fontawesome.com/18ee0ade15.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="portfolio-mob.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,7 +17,7 @@
   <body>
     <!-- NAVIGATRION BAR  -->
     <nav>
-      <div class="logo"><div class="rdlogo"><img src="rd-4.png" alt="logo"width="50px"></div>RITESH</div>
+      <div class="logo"><div class="rdlogo"><img src="rd-4.png" alt="logo"class="logo-img"></div>RITESH</div>
       <div class="nav-items"><a href="#home-section">Home</a></div>
       <div class="nav-items"><a href="#about-section">About</a></div>
       <div class="nav-items"><a href="#resume-section">Resume</a></div>
@@ -25,7 +26,19 @@
       <div class="nav-items"><a href="#projects-section">Projects</a></div>
       
       <div class="nav-items"><a href="#contact-section">Contact</a></div>
-    </nav>
+
+      
+
+    </nav>  <!-- hamburger -->
+  <!-- <div class="hamburger">  <div class="logo-hm"><div class="rdlogo"><img src="rd-4.png" alt="logo"width="50px"></div>RITESH</div>
+  <div class="nav-items-hm"><a href="#home-section">Home</a></div>
+  <div class="nav-items-hm"><a href="#about-section">About</a></div>
+  <div class="nav-items-hm"><a href="#resume-section">Resume</a></div>
+  <div class="nav-items-hm"><a href="#services-section">Services</a></div>
+  <div class="nav-items-hm"><a href="#skills-section">Skills</a></div>
+  <div class="nav-items-hm"><a href="#projects-section">Projects</a></div>
+  
+  <div class="nav-items-hm"><a href="#contact-section">Contact</a></div></div> -->
     <!-- HEADER SECTION -->
     <header id="home-section">
       <div class="h-1">HELLO!</div>
@@ -41,13 +54,13 @@
      <a href="https://drive.google.com/file/d/1x3fPSENyfLBWF4TVyl3w37V6bb-e2ZJa/view?usp=drivesdk ">   <button class="button-2">DOWNLOAD CV</button></a>
       </div>
       <div class="h-4">
-        <img src="rd-2.jpg" alt="photo" width="430px" />
+        <img class="h-4-img" src="rd-2.jpg" alt="photo"  />
       </div>
     </header>
     <!-- ABOUT SECTION  -->
     <div class="about" id="about-section">
       <div class="about-1">
-        <div class="a-1"><img src="rd-1.jpg" alt="" width="460px" /></div>
+        <div class="a-1"><img src="rd-1.jpg" alt=""class="a-1-img" /></div>
       </div>
       <div class="about-2">
         <div class="a-2">About Me</div>
@@ -166,7 +179,7 @@
         </div> -->
       </div>
       <div class="resume-3">
-       <a href="https://drive.google.com/file/d/1x3fPSENyfLBWF4TVyl3w37V6bb-e2ZJa/view?usp=drivesdk "> <button class="button-1" style="padding: 26px 54px">DOWNLOAD CV</button></a>
+       <a href="https://drive.google.com/file/d/1x3fPSENyfLBWF4TVyl3w37V6bb-e2ZJa/view?usp=drivesdk "> <button class="button-1 resume-mb-btn" >DOWNLOAD CV</button></a>
       </div>
     </div>
     <!-- SERVICES SECTION -->
@@ -181,27 +194,27 @@
       </div>
       <div class="services-1">
         <div class="services-box">
-          <div class="symbol"><img src="service-4.png" alt=""width="150px"></div>
+          <div class="symbol"><img src="service-4.png" alt=""class="service-img"></div>
           <div class="service-name">web developer</div>
         </div>
         <div class="services-box">
-          <div class="symbol"><img src="service-3.png" alt=""width="150px"></div>
+          <div class="symbol"><img src="service-3.png" alt=""class="service-img"></div>
           <div class="service-name">Photography</div>
         </div>
         <div class="services-box">
-          <div class="symbol"><img src="service-2.png" alt=""width="150px"></div>
+          <div class="symbol"><img src="service-2.png" alt=""class="service-img"></div>
           <div class="service-name">web design</div>
         </div>
         <div class="services-box">
-          <div class="symbol"><img src="service-5.png" alt=""width="150px"></div>
+          <div class="symbol"><img src="service-5.png" alt=""class="service-img"></div>
           <div class="service-name">Branding</div>
         </div>
         <div class="services-box">
-          <div class="symbol"><img src="service-6.png" alt=""width="150px"></div>
+          <div class="symbol"><img src="service-6.png" alt=""class="service-img"></div>
           <div class="service-name">UI/UX</div>
         </div>
         <div class="services-box">
-          <div class="symbol"><img src="service-1.png" alt=""width="150px"></div>
+          <div class="symbol"><img src="service-1.png" alt=""class="service-img"></div>
           <div class="service-name">Product Strategy</div>
         </div>
       </div>
@@ -211,7 +224,7 @@
       <div class="skills-1">
         <div class="resume-1">
           <div class="r-1">Skills</div>
-          <div class="r-2">Skills</div>
+          <div class="r-2 r-2-phone">Skills</div>
           <div class="r-3">
             Equipped with a versatile skill set, I proficiently navigate front-end and back-end technologies. From crafting responsive interfaces <br> to optimizing user experiences, my skills drive innovative web solutions.
           </div>
@@ -226,33 +239,33 @@
         </div>
         <div class="skills-box">
           <div class="s-1">CSS</div>
-          <div class="s-2" style="left: 80%">80%</div>
+          <div class="s-2 s-2-css" >80%</div>
           <div class="s-3"></div>
-          <div class="s-4" style="width: 80%"></div>
+          <div class="s-4 s-4-css"></div>
         </div>
         <div class="skills-box">
           <div class="s-1">BOOTSTRAP</div>
-          <div class="s-2" style="left: 75%">75%</div>
+          <div class="s-2 s-2-bootstrap" >75%</div>
           <div class="s-3"></div>
-          <div class="s-4" style="width: 75%"></div>
+          <div class="s-4 s-4-bootstrap"></div>
         </div>
         <div class="skills-box">
           <div class="s-1">JAVA SCRIPT</div>
-          <div class="s-2" style="left: 65%">65%</div>
+          <div class="s-2 s-2-js">65%</div>
           <div class="s-3"></div>
-          <div class="s-4" style="width: 65%"></div>
+          <div class="s-4 s-4-js " ></div>
         </div>
         <div class="skills-box">
           <div class="s-1">J-QUERY</div>
-          <div class="s-2" style="left: 80%">80%</div>
+          <div class="s-2 s-2-jquery" >80%</div>
           <div class="s-3"></div>
-          <div class="s-4" style="width: 80%"></div>
+          <div class="s-4 s-4-jquery" ></div>
         </div>
         <div class="skills-box">
           <div class="s-1">CANVA</div>
-          <div class="s-2" style="left: 90%">90%</div>
+          <div class="s-2 s-2-canva" >90%</div>
           <div class="s-3"></div>
-          <div class="s-4" style="width: 90%"></div>
+          <div class="s-4 s-4-canva" ></div>
         </div>
       </div>
     <!-- </div>PROJECTS SECTION  -->
@@ -271,15 +284,15 @@
  
 
     <!-- SOCIAL HANDLES -->
-    <div class="social"><div class="social-box"><a href="c:\Users\Ritesh\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\E98741479A7B998F88B8F8C9F0B6B6F1\WhatsApp Image 2023-09-02 at 02.07.49.jpg"><img src="whatsapp.png" alt=""width="150px"></a>
+    <div class="social"><div class="social-box"><a href="c:\Users\Ritesh\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\E98741479A7B998F88B8F8C9F0B6B6F1\WhatsApp Image 2023-09-02 at 02.07.49.jpg"><img class="social-img"  src="whatsapp.png" alt=""></a>
     </div>
-    <div class="social-box"><a href="https://instagram.com/ritesh_kr_divedi?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D "><img src="insta.png" alt=""width="150px"></a></div>
-    <div class="social-box"><a href="https://www.linkedin.com/in/ritesh-kr-divedi-8b8b81214"><img src="linkedin.png" alt=""width="150px"></a></div>
-    <div class="social-box"><a href=""><img src="twitter.png" alt=""width="150px"></a></div></div>
+    <div class="social-box"><a href="https://instagram.com/ritesh_kr_divedi?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D "><img class="social-img" src="insta.png" alt=""></a></div>
+    <div class="social-box"><a href="https://www.linkedin.com/in/ritesh-kr-divedi-8b8b81214"><img class="social-img" src="linkedin.png" alt=""></a></div>
+    <div class="social-box"><a href=""><img class="social-img" src="twitter.png" alt=""a></div></div>
     <!-- HIRE SECTION -->
     <div  class="hire"><div class="hire-line-1">I'm <div class="highlight">Available</div> for freelancing</div>
     <div class="hire-line-2">Ready to collaborate? Let's bring your ideas to life! Reach out for web solutions that blend code and creativity seamlessly.</div>
-    <div class="hire-line-3"><a href=" https://wa.me/qr/BFW4VLF77TEXJ1 "><button class="button-1" style="padding: 20px 44px;">HIRE ME</button></a></div></div>
+    <div class="hire-line-3"><a href=" https://wa.me/qr/BFW4VLF77TEXJ1 "><button class="button-1 hire-button">HIRE ME</button></a></div></div>
     <!-- CONTACT ME SECTION -->
     <div class="contact" id="contact-section"> <div class="resume-1">
       <div class="r-1">Contact Me</div>
@@ -287,16 +300,16 @@
       <div class="r-3">
         Let's Connect! Have a project in mind or just want to chat? Feel free to reach out through  email or connect <br> on LinkedIn. Looking forward to hearing from you!
       </div>
-    </div><div class="contact-icons"><div class="contact-box"><div class="contact-line"><div class="icon-shape"><i class="fa-solid fa-phone fa-beat-fade" style="color: #ffbd39; padding: 35px; font-size: 30px;"></i></div></div>
+    </div><div class="contact-icons"><div class="contact-box"><div class="contact-line"><div class="icon-shape"><i class="fa-solid fa-phone fa-beat-fade" ></i></div></div>
     <div class="contact-line">CONTACT NUMBER</div>
     <div class="contact-line"style="margin-top:0px;">+91 8076419342</div></div>
-    <div class="contact-box"><div class="contact-line"><div class="icon-shape"><i class="fa-solid fa-map-location-dot fa-beat-fade" style="color: #ffbd39; padding: 35px; font-size: 30px;"></i></div></div>
+    <div class="contact-box"><div class="contact-line"><div class="icon-shape"><i class="fa-solid fa-map-location-dot fa-beat-fade" ></i></div></div>
     <div class="contact-line">ADDRESS</div>
     <div class="contact-line"style="margin-top:0px;">BAWANA DELHI INDIA</div></div>
-    <div class="contact-box"><div class="contact-line"><div class="icon-shape"><i class="fa-solid fa-paper-plane fa-beat-fade" style="color: #ffbd39; padding: 35px; font-size: 30px; "></i></div></div>
+    <div class="contact-box"><div class="contact-line"><div class="icon-shape"><i class="fa-solid fa-paper-plane fa-beat-fade"></i></div></div>
     <div class="contact-line">EMAIL ADDRESS</div>
     <div class="contact-line"style="margin-top:0px;">riteshkd2k20@gmail.com</div></div>
-    <div class="contact-box"><div class="contact-line"><div class="icon-shape"><i class="fa-solid fa-earth-asia fa-beat-fade" style="color: #ffbd39;padding: 35px; font-size: 30px;"></i></div></div>
+    <div class="contact-box"><div class="contact-line"><div class="icon-shape"><i class="fa-solid fa-earth-asia fa-beat-fade"></i></div></div>
     <div class="contact-line">WEBSITE</div>
     <div class="contact-line"style="margin-top:0px;"></div></div></div></div>
     <!-- CONTACT FORM -->
@@ -325,7 +338,8 @@
 
 
 
-    <!-- script --><script src="https://unpkg.com/scrollreveal"></script>
+    <!-- script -->
+    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>   
     // auto type
