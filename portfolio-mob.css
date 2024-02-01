@@ -1,17 +1,21 @@
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 800px){
+  script{}
+}
+
+@media screen and (max-width: 700px) {
   .h-4 {
     z-index: -2;
   }
   .h-1 {
     position: relative;
     font-size: 11vh;
-    left: 35vh;
+    left: 70vw;
     top: 95vh;
   }
   .h-2 {
     font-size: 23vh;
     position: relative;
-    left: 120px;
+    left: 25vw;
     padding: 0vh;
     top: 155vh;
   }
@@ -31,7 +35,7 @@
     border-width: medium;
   }
   .h-4-img {
-    right: 30vh;
+    right: 70vw;
     width: 136vh;
     position: relative;
     bottom: 90vh;
@@ -40,7 +44,7 @@
     font-size: 8vh;
     position: relative;
     top: 160vh;
-    left: 14vh;
+    left: 25vw;
   }
   .logo {
     font-size: 8vh;
@@ -71,6 +75,9 @@
     margin-top: 17vh;
     width: 800px;
   }
+  .about-1 {
+    width: 130vw;
+  }
   .about-2 {
     width: 800px;
     margin-bottom: 200vh;
@@ -87,13 +94,13 @@
   .ques {
     font-size: 6vh;
     position: relative;
-    left: -45vh;
+    left: -42vh;
   }
   .ans {
     font-size: 6vh;
     position: relative;
-    bottom: 75vh;
-    left: 12vh;
+    bottom: 76vh;
+    left: 20vh;
   }
   .a-6 {
     font-size: 7vh;
@@ -126,39 +133,45 @@
   .r-1 {
     font-size: 115px;
     position: relative;
-    right: 15vh;
+    right: 20vh;
   }
   .r-2 {
     font-size: 265px;
     position: relative;
-    right: 35vh;
-    bottom: 23vh;
+    right: 40vh;
+    bottom: 25vh;
   }
   .r-3 {
-    font-size: 5vh;
+    font-size: 6vh;
+    width: 90%;
   }
   .resume-2 {
     display: flex;
     flex-direction: column;
     padding: 25px;
   }
+  .resume-3 {
+    position: relative;
+    left: -33vw;
+    margin-top: 60px;
+  }
   .r-box {
-    width: 150vh;
+    width: 80%;
     height: 100vh;
     padding: 8vh;
     border-radius: 10vh;
   }
   .part-1 {
-    font-size: 8vh;
+    font-size: 9vh;
   }
   .part-2 {
-    font-size: 8vh;
+    font-size: 9vh;
   }
   .part-3 {
-    font-size: 5vh;
+    font-size: 6vh;
   }
   .part-4 {
-    font-size: 5vh;
+    font-size: 6vh;
   }
   .services-1 {
     /* border: 2px solid red; */
@@ -166,7 +179,7 @@
     grid-template-columns: auto auto;
     grid-gap: 50px;
     padding: 0px 80px 50px 20px;
-    margin: 0px 50px 0px 50px;
+    margin: 0px 100px 0px 20px;
   }
   .services-box {
     /* border: 2px solid rgb(142, 106, 106); */
@@ -190,6 +203,7 @@
   .skills-2 {
     display: flex;
     flex-direction: column;
+    margin: 0px;
   }
   .skills-box {
     width: 34cm;
@@ -272,12 +286,12 @@
   .social {
     position: relative;
     /* border: 2px solid red; */
-    width: 95%;
+    width: 88%;
     height: 150px;
     text-align: center;
-    margin: auto;
+    /* margin: auto; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     z-index: 5;
     top: 260px;
   }
@@ -319,6 +333,7 @@
     /* border: 2px solid blue; */
     display: grid;
     grid-template-rows: 50% 25% 25%;
+    margin-right: 100px;
   }
   .contact-line {
     /* border: 2px solid green; */
@@ -338,23 +353,22 @@
   }
   .icon-shape i {
     color: #ffbd39;
-    padding: 120px;
+    padding: 110px;
     font-size: 15vh;
   }
   .form {
     /* border: 2px solid red; */
     width: 85%;
-    margin: auto;
     height: auto;
+    margin-right: 52vw;
     display: flex;
     flex-direction: column;
   }
   .form-box-1 {
     display: none;
   }
-  .form-box-1 {
-    /* height: auto; */
-  }
+
+  }.form-box-2{border-radius: 50px;}
   .form-line {
     outline: none !important;
     /* box-shadow: none !important; */
@@ -367,7 +381,7 @@
     padding: 0.375rem 0.95rem;
     margin: 55px 5px 15px 75px;
     font-weight: 500;
-    border: 1px solid #0d4f91;
+    border: 1px solid #a8a8a8;
     transition-duration: 0.8s;
   }
   .form-line-2 {
@@ -382,8 +396,12 @@
     padding: 2.375rem 2.95rem;
     margin: 55px 5px 15px 75px;
     font-weight: 500;
-    border: 1px solid #0d4f91;
+    border: 1px solid #a8a8a8;
     transition-duration: 0.8s;
+  }
+.form-line:hover {
+    font-size: 75px;
+    box-shadow: 1px 1px 5px 5px #c9c5bf;
   }
   .form button {
     padding: 6vh;
