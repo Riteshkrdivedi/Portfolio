@@ -1,9 +1,51 @@
-@media screen and (min-width: 800px) {
-  script {
-  }
-}
-
 @media screen and (max-width: 700px) {
+  .hamburger {
+    /* border: 2px solid rgb(239, 24, 24); */
+    background-color: #1a1a1aeb;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  .ham-menu {
+    /* border: 2px solid red; */
+    display: block;
+    font-size: 15vh;
+    left: 155vh;
+    bottom: 20vh;
+    position: relative;
+  }
+  .ham-cross {
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 165vh;
+    top: 2vh;
+  }
+  .nav-items-hm {
+    /* border: 2px solid red; */
+    padding: 15px;
+    font-size: 12vh;
+    margin: 22vh;
+    font-weight: 500;
+  }
+  .nav-items-hm:hover {
+    color: #ffbd39;
+  }
+  .logo-hm {
+    margin-top: 50px;
+    font-size: 15vh;
+    font-weight: 700;
+    color: #efa002;
+  }
+  .rdlogo-hm {
+    width: 40vh;
+  }
+
+  .social-img-hm {
+    /* border: 2px solid blue; */
+    margin: 100px;
+  }
+
   .h-4 {
     z-index: -2;
   }
