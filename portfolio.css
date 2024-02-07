@@ -1,7 +1,17 @@
 html {
   scroll-behavior: smooth;
 }
+::-webkit-scrollbar {
+  color: #000000;
+}
 
+::-webkit-scrollbar-thumb {
+  background-color: #ffbd39;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #efa002;
+}
 body {
   background-color: black;
   margin: 0;
@@ -71,6 +81,9 @@ nav {
 }
 /* hamburger */
 .ham-menu {
+  display: none;
+}
+.hamburger {
   display: none;
 }
 .logo-img {

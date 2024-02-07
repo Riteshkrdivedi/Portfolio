@@ -6,6 +6,7 @@
     height: 100%;
     position: fixed;
     z-index: 100;
+    display: none;
   }
   .ham-menu {
     /* border: 2px solid red; */
